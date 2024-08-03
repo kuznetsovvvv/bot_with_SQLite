@@ -19,7 +19,7 @@ int main() {
 
    // return 0;
 
-    TgBot::Bot bot("7293840848:AAGKON39UvM-kfQBVJGGhOB6_3HBDedsnmM");
+    TgBot::Bot bot("YOUR TOKEN");
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         bot.getApi().sendMessage(message->chat->id, "Hi, i'm your personal bot. I was writen in c++ language! Write /functions to know about my oppotrunities");
         try {
