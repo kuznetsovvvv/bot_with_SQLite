@@ -1,1 +1,11 @@
-# final_c_plusplus_project
+# Telegram bot was made with SQLite
+
+
+
+
+
+
+
+
+
+
