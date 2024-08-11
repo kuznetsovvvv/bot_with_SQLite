@@ -71,19 +71,6 @@ int main() {
         keyboardthree->inlineKeyboard.push_back({ button9 });
 
 
-   // db.exec("CREATE TABLE person (id INTEGER PRIMARY KEY, name TEXT, age INT)"); //создание таблицы заново, но нужно создать только 1 раз
-
-  /*  SQLite::Statement query(db, "INSERT INTO users (idTg) VALUES (?)");
-    query.bind(1, 123);
-    query.exec();*/
-
-   /* SQLite::Statement query_select(db, "SELECT * FROM person");
-    while (query_select.executeStep()) {
-        std::cout << "ID: " << query_select.getColumn(0) << ", Name: " << query_select.getColumn(1) << ", Age: " << query_select.getColumn(2) << std::endl;
-
-    }*/
-
-   // return 0;
 
   
   
