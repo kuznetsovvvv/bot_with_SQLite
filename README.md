@@ -1,4 +1,4 @@
-# Telegram bot was made with SQLite
+# Telegram bot 
 Бот создан на языке C++, что гарантирует высокую скорость работы и надежность.
 
 С помощью кроссплатформенного фреймворка vcpkg нужно установить две библиотеки:tgbot, SQLiteCpp; и провести интеграцию с IDE MS Visual Studio.
